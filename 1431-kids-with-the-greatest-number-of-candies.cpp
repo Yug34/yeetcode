@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
         int len = candies.size();
-        int max = candies[0];
+        int max = 0;
 
         for (int val : candies) {
             if (val > max) {
